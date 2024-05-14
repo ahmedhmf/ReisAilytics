@@ -1,0 +1,20 @@
+<div class="header">
+  <h1>Daily Quick View</h1>
+  <img src="assets/img/leitner_logo.svg" class="logo">
+</div>
+<div class="menu">
+  <p-tabMenu [model]="items"/>
+</div>
+<div style="margin-top: 5rem; width:30%; display:flex; gap: 2rem">
+  <p-card header="Graph 1">
+    <p-chart type="bar" [data]="basicData" [options]="basicOptions"/>
+  </p-card>
+    <p-card header="Number 1" [style]="{width:'13rem', height: '11rem'}">
+        <h1 style="color:blue;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;">487</h1>
+    </p-card>
+  <p-card header="Google Trends">
+  </p-card>
+</div>

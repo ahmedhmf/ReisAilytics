@@ -1,0 +1,24 @@
+h1 {
+  color: white;
+}
+
+.header {
+  width: 100%;
+  background-color: #0086B4;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem
+}
+
+.logo {
+  width: 18rem;
+}
+
+.menu {
+  position: absolute;
+  top: 7rem;
+  width: 95%;
+}
